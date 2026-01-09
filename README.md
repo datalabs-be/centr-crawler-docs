@@ -16,7 +16,7 @@ Here is an overview of the steps needed to particiapte in the monthly crawling:
 * Add an 'upload_done' file to signal that you are done uploading.
 * Sit back and relax ☺️, the crawling results will be available soon.
 
-See [the monthly sample](./monthly_sample.md) for more details about the monthly sample.
+See [the monthly sample](docs/monthly_sample.md) for more details about the monthly sample.
 
 # Create an account
   
@@ -81,15 +81,16 @@ Select the TLD and click `Request access keys`.
                                                                    
 You will now see the newly created key.
 Each access key consists of an access key ID and a secret key.
-                                           
-> ⚠️ Safely store the access key ID and the secret key. The secret key will be shown only once! ⚠️
-> 
-> To allow for safely rotating keys, you can create up to three access keys per TLD. 
+                   
+> [!IMPORTANT] ⚠️                        
+Safely store the access key ID and the secret key. The secret key will be shown only once!
 
 If you failed to store the key, just delete the key and request a new one.
 
->                                           
-> Please note that access keys automatically expire one year after creation.
+To allow for safely rotating keys, you can create up to three access keys per TLD.
+
+> [!IMPORTANT]                                           
+Please note that access keys automatically expire one year after creation.
 
 # Uploading a sample of your zone file
 
@@ -112,10 +113,9 @@ You have several options to upload a sample of your zone file:
 * and many more.
 
 We will describe some of these options in the next sections.
-
-[Upload with s3cmd](./upload_with_s3cmd.md)
-[Upload using Pythonand boto3](./upload_with_python.md)
+* [Upload with s3cmd](docs/upload_with_s3cmd.md)
+* [Upload using Pythonand boto3](docs/upload_with_python.md)
                              
-More details about the monthly sample can be found [here](./monthly_sample.md).
+More details about the monthly sample can be found [here](docs/monthly_sample.md).
 
 
