@@ -24,19 +24,18 @@ First, you need to create a user account.
 
 Go to https://portal.datalabs.be/register and enter your email address.
 
-> ⚠️ **️Important** 
->
+> [!NOTE]   
 > Make sure to use an e-mail address that uses the **domain name of your registry**.
 > Otherwise you will see this error message:
 > ```
 > Email is not valid. Please contact someone at Data Labs if you think this is incorrect.
 > ```
 
-> **Note**
+> [!NOTE]  
 > 
 > You can only register one account per email address.
 > 
-> But there can be multiple people at your registry each with their own account (and access keys).
+> But there can be multiple people at your registry, each with their own account (and access keys).
 
 # Click the activation link
                                       
@@ -51,8 +50,7 @@ When you click the activation link, you will be asked to fill in your first and 
 After you enter your credentials, you will receive a one-time token via e-mail.
 Copy-paste the token in the form and click `Verify`.
 
-> **Note**
->
+> [!TIP]
 > Now, you can delete the e-mails with the activation link and the one-time token.
 >
 > Every time you log in, you will need
@@ -81,9 +79,9 @@ Select the TLD and click `Request access keys`.
                                                                    
 You will now see the newly created key.
 Each access key consists of an access key ID and a secret key.
-                   
-> [!IMPORTANT] ⚠️                        
-Safely store the access key ID and the secret key. The secret key will be shown only once!
+
+> [!WARNING]                    
+> Safely store the access key ID and the secret key. The secret key will be shown only once!
 
 If you failed to store the key, just delete the key and request a new one.
 

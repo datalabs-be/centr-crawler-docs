@@ -66,7 +66,7 @@ Select the TLD and click `Request access keys`.
 You will now see the newly created key.
 Each access key consists of an access key ID and a secret key.
                    
-> [!IMPORTANT] ⚠️                        
+> [!IMPORTANT]                       
 Safely store the access key ID and the secret key. The secret key will be shown only once!
 
 If you failed to store the key, just delete the key and request a new one.
