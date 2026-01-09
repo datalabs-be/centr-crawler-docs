@@ -31,7 +31,7 @@ s3 = boto3.client('s3', endpoint_url='https://s3.fr-par.scw.cloud', region_name=
 s3.upload_file(Filename='local_file.csv', Bucket=bucket, Key='input/sample.csv')
 ```
 
-For more details, see [upload_file.py](../python/upload_file.py)
+See [upload_file.py](../python/upload_file.py) for more details.
 
 
 
