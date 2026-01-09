@@ -21,8 +21,17 @@ pip install boto3
 ```python
 
 import boto3
+import os 
 
+os.environ['AWS_ACCESS_KEY_ID'] = '<ADD YOUR ACCESS KEY ID HERE>'
+os.environ['AWS_SECRET_ACCESS_KEY'] = '<ADD YOUR SECRET ACCESS KEY HERE>'
+bucket = '<ADD YOUR BUCKET NAME HERE>'
+
+s3 = boto3.client('s3', endpoint_url='https://s3.fr-par.scw.cloud', region_name='fr-par')
+s3.upload_file(Filename='local_file.csv', Bucket=bucket, Key='input/sample.csv')
 ```
+
+For more details, see [upload_file.py](../python/upload_file.py)
 
 
 

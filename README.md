@@ -112,7 +112,7 @@ You have several options to upload a sample of your zone file:
 
 We will describe some of these options in the next sections.
 * [Upload with s3cmd](docs/upload_with_s3cmd.md)
-* [Upload using Pythonand boto3](docs/upload_with_python.md)
+* [Upload using Python and boto3](docs/upload_with_python.md)
                              
 More details about the monthly sample can be found [here](docs/monthly_sample.md).
 
