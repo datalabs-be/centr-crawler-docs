@@ -10,13 +10,13 @@ Go to https://portal.datalabs.be/register and enter your email address.
                
 ![register](../images/register.png)
 
-Make sure to use the e-mail address linked to your registry, otherwise you will see this error message:
+Make sure to use the email address linked to your registry, otherwise you will see this error message:
 
 ![Email is not valid. Please contact someone at Data Labs if you think this is incorrect.](../images/email_invalid_small.png)
 
 # Click the activation link
                                       
-You should now receive an e-mail with an activation link.
+You should now receive an email with an activation link.
 The mail is sent by `no-reply@datalabs.be` and should have a correct DKIM signature.
 
 When you click the activation link, you will be asked to fill in your first and lastname and choose a password.
@@ -29,18 +29,18 @@ When you click the activation link, you will be asked to fill in your first and 
                  
 # Multi factor authentication
 
-After you enter your password you will receive a one-time token via e-mail.
+After you enter your password, you will receive a one-time token via email.
 
 Copy paste the token in the form and click `Verify`.
 
 [//]: # (![mfa]&#40;./images/mfa.png&#41;)
 
-You can now delete the e-mails with the activation link and the one-time token.
+You can now delete the emails with the activation link and the one-time token.
 
 Every time you log in, you will need 
 * your email address
 * your password
-* The one-time token you will receive via e-mail.
+* The one-time token you will receive via email.
 
 # Home page
 

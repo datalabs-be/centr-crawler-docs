@@ -1,15 +1,15 @@
 # CENTR Crawler Documentation
                            
-This repository contains documentation for CENTR who members participating in the monthly crawling of (a sample of) 
+This repository contains documentation for CENTR members participating in the monthly crawling of (a sample of) 
 their zone file.
                        
 # Summary
 
-Here is an overview of the steps needed to particiapte in the monthly crawling:
-* Enter your e-mail address at https://portal.datalabs.be/register
+Here is an overview of the steps needed to participate in the monthly crawling:
+* Enter your email address at https://portal.datalabs.be/register
 * Click the activation link in the mail you should have received.
 * Choose a password. 
-* Login with your password and the one-time token sent to you via email.
+* Log in with your password and the one-time token sent to you via email.
 * Wait for confirmation that your account has been assigned to your TLD. 
 * Log in to the portal and generate an access key.
 * Use the access key to upload your sample to the S3 bucket for your TLD.
@@ -25,7 +25,7 @@ First, you need to create a user account.
 Go to https://portal.datalabs.be/register and enter your email address.
 
 > [!NOTE]   
-> Make sure to use an e-mail address that uses the **domain name of your registry**.
+> Make sure to use an email address that uses the **domain name of your registry**.
 > Otherwise you will see this error message:
 > ```
 > Email is not valid. Please contact someone at Data Labs if you think this is incorrect.
@@ -39,7 +39,7 @@ Go to https://portal.datalabs.be/register and enter your email address.
 
 # Click the activation link
                                       
-You should now receive an e-mail with an activation link.
+You should now receive an email with an activation link.
 The mail is sent by `no-reply@datalabs.be` and should have a correct DKIM signature.
 Please let us know if the mail landed in your spam folder or if you did not receive the mail.
 
@@ -47,16 +47,16 @@ When you click the activation link, you will be asked to fill in your first and 
 
 # You will be redirected to the login form:
 
-After you enter your credentials, you will receive a one-time token via e-mail.
+After you enter your credentials, you will receive a one-time token via email.
 Copy-paste the token in the form and click `Verify`.
 
 > [!TIP]
-> Now, you can delete the e-mails with the activation link and the one-time token.
+> Now, you can delete the emails with the activation link and the one-time token.
 >
 > Every time you log in, you will need
 > * your email address
 > * your password
-> * A fresh one-time token that you will receive via e-mail.
+> * A fresh one-time token that you will receive via email.
 
 # Home page
 
