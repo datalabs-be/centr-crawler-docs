@@ -92,9 +92,14 @@ Please note that access keys automatically expire one year after creation.
 
 # Uploading a sample of your zone file
 
-Every month you should upload a random sample of your zone file to the S3 bucket for your TLD.
+Every month you should upload a random sample of your zone file to *the input folder* of your S3 bucket for your TLD.
 The sample should be in CSV format with no headers and one column: the domain name including the TLD. 
 The CSV file should contain no more than 50.000 records and have a '.csv' extension.
+
+Please do not to write to the root of the bucket since you will get an Access Denied error.
+If your TLD is fr you should write to s3://mercator-data-fr/input/sample_2026_08.csv
+
+Members have read access to the whole bucket and *write access* only to the input prefix.
 
 To upload a sample of your zone file, you need this information:
 
